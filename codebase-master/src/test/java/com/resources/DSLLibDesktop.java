@@ -30,6 +30,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.codebase.ui.AhungTestClass_UI;
 import com.codebase.ui.GoogleTestClass_UI;
 import com.util.YamlReader;
 
@@ -53,6 +54,7 @@ public class DSLLibDesktop {
 	String Read = "c:/abc/abc.xlxs";
 	
 	public GoogleTestClass_UI googletestclass;
+	public AhungTestClass_UI ahungtestclass;
 	
 	
 	public DSLLibDesktop() {
@@ -185,12 +187,17 @@ public class DSLLibDesktop {
 		driver.get(YamlReader.getData("BravoUrl"));
 	}
 	
+	public void launchAhung() {
+		driver.get(YamlReader.getData("AhungUrl"));
+	}
+	
 	/**
 	 * function to initialize object
 	 */
 	private void _initObjects() {
 		
 		googletestclass = new GoogleTestClass_UI(driver);
+		ahungtestclass = new AhungTestClass_UI(driver);
 		
 	}
 

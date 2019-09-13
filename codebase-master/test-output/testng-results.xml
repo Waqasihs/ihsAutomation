@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[setting value isnull]]>
@@ -20,12 +20,12 @@
       <![CDATA[=================================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-08-23T05:40:19Z" name="Default suite" finished-at="2019-08-23T05:40:28Z" duration-ms="8634">
+  <suite started-at="2019-09-13T11:39:46Z" name="Default suite" finished-at="2019-09-13T11:40:09Z" duration-ms="22413">
     <groups>
     </groups>
-    <test started-at="2019-08-23T05:40:19Z" name="Default test" finished-at="2019-08-23T05:40:28Z" duration-ms="8634">
-      <class name="com.codebase.GoogleTestClass">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.GoogleTestClass@2ddc8ecb]" started-at="2019-08-23T05:40:19Z" name="beforeClass" finished-at="2019-08-23T05:40:26Z" duration-ms="6312" status="PASS">
+    <test started-at="2019-09-13T11:39:46Z" name="Default test" finished-at="2019-09-13T11:40:09Z" duration-ms="22413">
+      <class name="com.codebase.AhungTestClass">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:39:46Z" name="beforeClass" finished-at="2019-09-13T11:39:52Z" duration-ms="5663" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -47,23 +47,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Google_Title()[pri:0, instance:com.codebase.GoogleTestClass@2ddc8ecb]" started-at="2019-08-23T05:40:26Z" name="Test01_Verify_Google_Title" finished-at="2019-08-23T05:40:26Z" duration-ms="12" status="PASS">
+        <test-method signature="Test01_Verify_Ahung_Title()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:39:52Z" name="Test01_Verify_Ahung_Title" finished-at="2019-09-13T11:39:57Z" duration-ms="5028" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test01_Verify_Google_Title -->
-        <test-method signature="Test02_Verify_Google_Logo()[pri:0, instance:com.codebase.GoogleTestClass@2ddc8ecb]" started-at="2019-08-23T05:40:26Z" name="Test02_Verify_Google_Logo" finished-at="2019-08-23T05:40:26Z" duration-ms="92" status="PASS">
+        </test-method> <!-- Test01_Verify_Ahung_Title -->
+        <test-method signature="Test02_Verify_Ahung_Logo()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:39:57Z" name="Test02_Verify_Ahung_Logo" finished-at="2019-09-13T11:39:57Z" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test02_Verify_Google_Logo -->
-        <test-method signature="Test03_Verify_Country_Name()[pri:0, instance:com.codebase.GoogleTestClass@2ddc8ecb]" started-at="2019-08-23T05:40:26Z" name="Test03_Verify_Country_Name" finished-at="2019-08-23T05:40:26Z" duration-ms="106" status="PASS">
+        </test-method> <!-- Test02_Verify_Ahung_Logo -->
+        <test-method signature="Test03_Enter_User_Id()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:39:57Z" name="Test03_Enter_User_Id" finished-at="2019-09-13T11:39:59Z" duration-ms="2132" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test03_Verify_Country_Name -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.GoogleTestClass@2ddc8ecb]" started-at="2019-08-23T05:40:26Z" name="afterClass" finished-at="2019-08-23T05:40:28Z" duration-ms="2079" status="PASS">
+        </test-method> <!-- Test03_Enter_User_Id -->
+        <test-method signature="Test04_Enter_Password()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:39:59Z" name="Test04_Enter_Password" finished-at="2019-09-13T11:40:01Z" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_Enter_Password -->
+        <test-method signature="Test05_Perform_Login()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:40:02Z" name="Test05_Perform_Login" finished-at="2019-09-13T11:40:07Z" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_Perform_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.codebase.AhungTestClass@47542153]" started-at="2019-09-13T11:40:07Z" name="afterClass" finished-at="2019-09-13T11:40:09Z" duration-ms="2130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.codebase.GoogleTestClass -->
+      </class> <!-- com.codebase.AhungTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
